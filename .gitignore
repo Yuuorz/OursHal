@@ -1,0 +1,30 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Model checkpoints and generated tensors
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.npz
+*.npy
+*.zip
+
+# Local logs and credentials
+*.log
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Keep remote history focused on source code
+/data/
+/artifacts/
+/runs/
+/PROJECT_CONTEXT.md
+/results.json
